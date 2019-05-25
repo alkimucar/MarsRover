@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiburadaCaseStudy", "HepsiburadaCaseStudy\HepsiburadaCaseStudy.csproj", "{3A038113-A864-4F1D-9167-C7961AE5F475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiburadaCaseStudyTester", "HepsiburadaCaseStudyTester\HepsiburadaCaseStudyTester.csproj", "{382D9ACC-01BC-443F-A49A-2CA1394F2667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A038113-A864-4F1D-9167-C7961AE5F475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A038113-A864-4F1D-9167-C7961AE5F475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A038113-A864-4F1D-9167-C7961AE5F475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A038113-A864-4F1D-9167-C7961AE5F475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382D9ACC-01BC-443F-A49A-2CA1394F2667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382D9ACC-01BC-443F-A49A-2CA1394F2667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382D9ACC-01BC-443F-A49A-2CA1394F2667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382D9ACC-01BC-443F-A49A-2CA1394F2667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3581341D-6456-4D2C-8EF7-F23DB3051C41}
+	EndGlobalSection
+EndGlobal
