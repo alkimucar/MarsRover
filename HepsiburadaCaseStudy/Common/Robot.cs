@@ -1,4 +1,5 @@
-﻿using HepsiburadaCaseStudy.Models;
+﻿using HepsiburadaCaseStudy.Interfaces;
+using HepsiburadaCaseStudy.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace HepsiburadaCaseStudy
     /// <summary>
     /// This an receiver class
     /// </summary>
-    public class Robot
+    public class Robot : IRobot
     {
         private string[] directionArray = new string[4] { "N", "E", "S", "W" };
         private RobotCoordinate _coordinate;

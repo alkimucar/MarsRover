@@ -1,4 +1,5 @@
 ﻿using HepsiburadaCaseStudy.Commands;
+using HepsiburadaCaseStudy.Interfaces;
 using HepsiburadaCaseStudy.Models;
 using HepsiburadaCaseStudy.Service;
 using System;
@@ -28,7 +29,7 @@ namespace HepsiburadaCaseStudy
             {
                 var robotCoordinate = robotsCoordinates.ElementAt(i);
 
-                Robot robot = new Robot(robotCoordinate, plateau);
+                IRobot robot = new Robot(robotCoordinate, plateau);
                 RemoteControl rc = new RemoteControl();
 
                 for(int j = 0; j < robotDirections.ElementAt(i).ToCharArray().Length; j++)

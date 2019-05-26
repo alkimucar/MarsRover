@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HepsiburadaCaseStudy.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace HepsiburadaCaseStudy.Commands
 {
     class RightRotationCommand : ICommand
     {
-        private Robot _robot;
+        private IRobot _robot;
 
-        public RightRotationCommand(Robot robot)
+        public RightRotationCommand(IRobot robot)
         {
             _robot = robot;
         }

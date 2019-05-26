@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HepsiburadaCaseStudy.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,9 @@ namespace HepsiburadaCaseStudy.Commands
 {
     class MoveCommand :ICommand
     {
-        private Robot _robot;
+        private IRobot _robot;
 
-        public MoveCommand(Robot robot)
+        public MoveCommand(IRobot robot)
         {
             _robot = robot;
         }

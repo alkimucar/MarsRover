@@ -46,14 +46,15 @@
     <Compile Include="Commands\LeftRotationCommand.cs" />
     <Compile Include="Commands\MoveCommand.cs" />
     <Compile Include="Commands\RightRotationCommand.cs" />
-    <Compile Include="Models\ICommand.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\IRobot.cs" />
     <Compile Include="Models\Plateau.cs" />
     <Compile Include="Models\RobotCoordinate.cs" />
     <Compile Include="RemoteControl.cs" />
     <Compile Include="Common\Robot.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\DataProvider.cs" />
+    <Compile Include="Providers\DataProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
